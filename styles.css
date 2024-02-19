@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --background-color: #FAFAF9;
+    --blog-card-shadow: #E5EAF0;
+    --status-color: #883AE1;
+    --status-background: #E6D6FC;
+    --text-title: #20293A;
+    --text-body: #6C727F;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.blog-card {
+    margin: 0 auto;
+    margin-top: 75px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    padding: 16px;
+    width: 338px;
+    font-family: 'Sora';
+    border-radius: 15px;
+    box-shadow: 15px 4px 18px 3px var(--blog-card-shadow);
+}
+
+.image-container img {
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.status-container {
+    margin: 16px 0;
+    padding: 6px 16px;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 0.625rem;
+}
+
+.blog-card .status-container {
+    color: var(--status-color);
+    background-color: var(--status-background);
+    border-radius: 15px;
+}
+
+.blog-content h1 {
+    font-size: 1.125rem;
+    color: var(--text-title);
+}
+
+.blog-content p {
+    font-size: 0.875rem;
+    font-weight: 200;
+    color: var(--text-body);
+}
+
+.blog-footer {
+    font-size: 0.75rem;
+    color: var(--text-body);
+    margin: 20px 0;
+}
+
+.line-separator {
+    border: black 1px solid;
+}
+
+.blog-footer h2 {
+    margin: 20px 0;
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: 125px;
+    font-family: 'poppins';
+    color: var(--text-body);
+    text-align: center;
+    font-size: 0.65rem;
+}
